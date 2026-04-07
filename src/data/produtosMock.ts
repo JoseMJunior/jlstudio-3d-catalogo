@@ -16,7 +16,7 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
 
   'Chaveiros': [
     {
-      nome: "Chaveiro Gatinho Minimalista",
+      nome: "Gatinho Minimalista",
       preco: 3.50,
       imagens: [
         "/produtos/chaveiro/CHAVEIRO GATO (1).jpg",
@@ -28,8 +28,8 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
       videoUrl: "/produtos/chaveiro/CHAVEIRO GATO (1).mp4",
     },
     {
-      nome: "Par de Chaveiros Coração Blocos de Montar",
-      preco: 3.00,
+      nome: "Par de Coração Blocos de Montar",
+      preco: 2.50,
       imagens: [
         "/produtos/chaveiro/CORACAO LEGO (1).jpg",
         "/produtos/chaveiro/CORACAO LEGO (1).png",
@@ -40,7 +40,7 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
       videoUrl: "/produtos/chaveiro/CORACAO LEGO (1).mp4",
     }, 
     {
-      nome: "Chaveiro Super Mario | Bloco de Interrogacao Amarelo ",
+      nome: "Super Mario | Bloco de Interrogacao Amarelo ",
       preco: 4.00,
       imagens: [
         "/produtos/chaveiro/MARIO BLOCO (1).png",
@@ -52,7 +52,7 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
       videoUrl: "/produtos/chaveiro/MARIO BLOCO (1).mp4",
     },
     {
-      nome: "Chaveiro Creeper Minecraft | Personalizável",
+      nome: "Creeper Minecraft | Personalizável",
       preco: 3.50,
       imagens: [
         "/produtos/chaveiro/MINECRAFT CREEPER (1).png",
@@ -63,7 +63,7 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
       videoUrl: "/produtos/chaveiro/MINECRAFT CREEPER (5).mp4",
     },
     {
-      nome: "Chaveiro Polvo Articulado",
+      nome: "Polvo Articulado",
       preco: 3.50,
       imagens: [        
         "/produtos/chaveiro/POLVO ARTICULADO (1).png",
@@ -75,8 +75,8 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
       videoUrl: "/produtos/chaveiro/POLVO ARTICULADO (1).mp4",
     },
     {
-      nome: "Chaveiro Troféu copa do mundo",
-      preco: 3.00,
+      nome: "Troféu copa do mundo",
+      preco: 2.50,
       imagens: [
         "/produtos/chaveiro/TACA COPA DO MUNDO (1).jpg",
         "/produtos/chaveiro/TACA COPA DO MUNDO (1).png",
@@ -84,6 +84,72 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
         "/produtos/chaveiro/TACA COPA DO MUNDO (5).png"
       ],
       videoUrl: "/produtos/chaveiro/TACA COPA DO MUNDO (1).mp4",
+    },
+    {
+      nome: "Logo Playstation",
+      preco: 2.50,
+      imagens: [
+        "/produtos/chaveiro/CHAVEIRO LOGO PLAYSTATION (1).jpg",
+        "/produtos/chaveiro/CHAVEIRO LOGO PLAYSTATION (2).jpg"
+      ],
+    },
+    {
+      nome: "Robux Moeda Roblox",
+      preco: 2.50,
+      imagens: [
+        "/produtos/chaveiro/ROBUX MOEDA ROBLOX.jpg"
+      ],
+    },
+    {
+      nome: "patinha cachorro/gato",
+      preco: 2.50,
+      imagens: [
+        "/produtos/chaveiro/CACHORRO PATINHA ANIMAL (1).png",
+        "/produtos/chaveiro/CACHORRO PATINHA ANIMAL (2).png",
+        "/produtos/chaveiro/CACHORRO PATINHA ANIMAL (3).png",
+        "/produtos/chaveiro/CACHORRO PATINHA ANIMAL (4).png",
+        "/produtos/chaveiro/CACHORRO PATINHA ANIMAL (5).png",
+        "/produtos/chaveiro/CACHORRO PATINHA ANIMAL (6).png",
+      ],
+    },
+    {
+      nome: "NUVEM AKATSUKI ITACHI",
+      preco: 2.50,
+      imagens: [
+        "/produtos/chaveiro/NUVEM AKATSUKI ITACHI (1).jpg",
+        "/produtos/chaveiro/NUVEM AKATSUKI ITACHI (2).jpg"
+      ],
+    },
+    {
+      nome: "chapéu DE PALHA",
+      preco: 3.00,
+      imagens: [
+        "/produtos/chaveiro/CHAPEU DE PALHA (1).jpg",
+        "/produtos/chaveiro/CHAPEU DE PALHA (2).jpg"
+      ],
+    },
+    {
+      nome: "TIMES RJ - FLAMENGO/BOTAFOGO/VASCO",
+      preco: 4.00,
+      imagens: [
+        "/produtos/chaveiro/TIMES RJ (3).jpg",
+        "/produtos/chaveiro/TIMES RJ (1).jpg",
+        "/produtos/chaveiro/TIMES RJ (2).jpg"
+      ],
+    },
+    {
+      nome: "BOLA DE FUTEBOL BRASIL",
+      preco: 5.50,
+      imagens: [
+        "/produtos/chaveiro/BOLA DE FUTEBOL BRASIL.png",
+      ],
+    },
+    {
+      nome: "DEMON SLAYER BRINCO TANJIRO ",
+      preco: 2.50,
+      imagens: [
+        "/produtos/chaveiro/TANJIRO BRINCO.png"
+      ],
     }
   
   ],
@@ -169,7 +235,7 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
     },
     {
       nome: "Porta lápis caneta caneta trançado",
-      preco: 17.90,
+      preco: 18.00,
       imagens: [
       "/produtos/utilidade/PORTA LAPIS CANETA (1).png",
       "/produtos/utilidade/PORTA LAPIS CANETA (2).png",
@@ -211,7 +277,7 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
     },
     {
       nome: "Suporte de Mesa Celular/Smartphone",
-      preco: 9.90,
+      preco: 10.00,
       imagens: [
       "/produtos/utilidade/SUPORTE CELULAR MULTCOR (1).png",
       "/produtos/utilidade/SUPORTE CELULAR MULTCOR (2).png",
@@ -221,7 +287,7 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
     },
     {
       nome: "Suporte Celular de parede",
-      preco: 7.90,
+      preco: 8.00,
       imagens: [
       "/produtos/utilidade/SUPORTE CELULAR PAREDE.png",
       "/produtos/utilidade/SUPORTE CELULAR PAREDE2.png",
@@ -231,7 +297,7 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
     },
     {
       nome: "Suporte para Headset",
-      preco: 17.90,
+      preco: 18.00,
       imagens: [
       "/produtos/utilidade/SUPORTE HEADSET BASICO (1).png",
       "/produtos/utilidade/SUPORTE HEADSET BASICO (2).png",
@@ -272,13 +338,21 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
       "/produtos/utilidade/SUPORTE PS4 SLIM (4).png"
       ]
     },
-    // Cole mais utilidades aqui
+    {
+      nome: "porta figurinha album copa 2026",
+      preco: 18.00,
+      imagens: [
+      "/produtos/utilidade/porta figurinha (2).png",
+      "/produtos/utilidade/porta figurinha (1).png"
+      ]
+    },
+
   ],
 
   'Decoração': [
     {
       nome: "Coelho Páscoa Textura Tricô ",
-      preco: 5.75,
+      preco: 6.50,
       imagens: [
       "/produtos/decoracao/COELHO TRICO (1).jpg",
       "/produtos/decoracao/COELHO TRICO (1).png",
@@ -290,12 +364,19 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
     },
     {
       nome: "Escultura Telefone sem Fio",
-      preco: 6.39,
+      preco: 6.50,
       imagens: [
       "/produtos/decoracao/NAMORADOS TELEFONE SEM FIO (1).png",
       "/produtos/decoracao/NAMORADOS TELEFONE SEM FIO (2).png",
       "/produtos/decoracao/NAMORADOS TELEFONE SEM FIO (3).png",
       "/produtos/decoracao/NAMORADOS TELEFONE SEM FIO (4).png"
+      ]
+    },
+    {
+      nome: "Réplica taça copa do mundo 18cm",
+      preco: 20.00,
+      imagens: [
+      "/produtos/decoracao/TACA COPA DO MUNDO.jpg",
       ]
     },
   ]
