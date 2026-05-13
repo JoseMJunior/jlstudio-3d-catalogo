@@ -6,10 +6,10 @@ interface ProductCardProps {
 }
 
 export const ProductCard = ({ produto }: ProductCardProps) => {
-    const precoFormatado = new Intl.NumberFormat('pt-BR', {
-        style: 'currency',
-        currency: 'BRL'
-    }).format(produto.preco);
+    // const precoFormatado = new Intl.NumberFormat('pt-BR', {
+    //     style: 'currency',
+    //     currency: 'BRL'
+    // }).format(produto.preco);
 
     return (
         <article className="flex flex-col bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-1 hover:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]">
@@ -24,9 +24,9 @@ export const ProductCard = ({ produto }: ProductCardProps) => {
             <h3 className="text-xl font-bold uppercase leading-tight line-clamp-2">
             {produto.nome}
             </h3>
-            <p className="text-2xl font-bold mt-auto">
+            {/* <p className="text-2xl font-bold mt-auto">
             {precoFormatado}
-            </p>
+            </p> */}
         </div>
         </article>
     );
