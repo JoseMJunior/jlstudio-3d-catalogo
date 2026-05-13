@@ -17,7 +17,7 @@ const categoriasAgrupadas: Record<CategoriaProduto, ProdutoInput[]> = {
   'Chaveiros': [
     {
       nome: "Gatinho Minimalista",
-      preco: 3.50,
+      preco: 5.50,
       imagens: [
         "/produtos/chaveiro/CHAVEIRO GATO (1).jpg",
         "/produtos/chaveiro/CHAVEIRO GATO (1).png",
